@@ -8,6 +8,7 @@ print("\033[1;92m   [•] UPDATE CHECKING \033[1;30m")
 os.system('espeak -a 300 "Update Done"')
 print("\033[1;92m   [•] CHECK YOUR INTERNET CONNECTION \033[1;30m")
 os.system('espeak -a 300 "check your internet connection"')
+os.system('xdg-open https://www.facebook.com/ifad.ibrahim.8')
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -117,7 +118,6 @@ def jalan(z):
 def IBRAHIM_programmer():
     os.system('clear')
     print(logo)
-    os.system('xdg-open https://www.facebook.com/ifad.ibrahim.8')
     os.system('espeak -a 300 "YOU GET ALL TYPE ACCOUNT FROM HERE"')
     print("")
     print('\033[38;5;46m   [01] CLONING START')
