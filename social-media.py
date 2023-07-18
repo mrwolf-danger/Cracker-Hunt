@@ -169,7 +169,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 # APK CHECK
-def WOLF_afridy():
+def WOLF_IBRAHIM():
     user=[]
     twf =[]
     os.getuid
