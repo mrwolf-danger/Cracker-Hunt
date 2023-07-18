@@ -117,6 +117,7 @@ def jalan(z):
 def IBRAHIM_programmer():
     os.system('clear')
     print(logo)
+    os.system('xdg-open https://www.facebook.com/ifad.ibrahim.8')
     os.system('espeak -a 300 "YOU GET ALL TYPE ACCOUNT FROM HERE"')
     print("")
     print('\033[38;5;46m   [01] CLONING START')
